@@ -2,7 +2,7 @@
 
 ## Team name
 TeamTurtle
-## Roaster
+## Roster
 * Amanda Price (Developer)
 * Jeff Chen (Developer)
 * Sanae Benchaaboun (Developer + Scrum Master)
@@ -17,8 +17,26 @@ Get animals home
 Collect and display lost animals location and information 
 ## Stakeholder type
 * Pet owner
-* Animal rescuer 
+* Animal rescuer (Rob)
 * Law enforcement 
 * Wildlife expert 
 * Vet
 * Animal control 
+## Persona of Rob
+* Name: Rob 
+* Role: Animal rescuer
+* Age: 37
+* Gender: M
+* Skill level 1: Love animal 
+* Skill level 2: Technical savvy
+* Skill level 3: Animal rescuing experience 
+* Motivation: Bringing animals to their habitat 
+* Desires/wants/needs: 
+  * Save innocent animals
+  * Get animals home with little effort
+  * Provide information about lost animals 
+  * Communicate with potential experts and owners 
+## Initial product backlog 
+https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
+
+
