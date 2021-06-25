@@ -39,4 +39,9 @@ Collect and display lost animals location and information
 ## Initial product backlog 
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 
-
+## Definition of Ready
+* Title 
+* User story opening sentence
+* Additional details 
+* Acceptance criteria
+* Estimated in story points
