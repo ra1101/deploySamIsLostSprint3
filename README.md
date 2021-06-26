@@ -45,3 +45,4 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 * Additional details 
 * Acceptance criteria
 * Estimated in story points
+* Each user story has a high priority 
