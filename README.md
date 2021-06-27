@@ -55,3 +55,6 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 * Value to stakeholders 
 * Useful thin slices of technology 
 * Level of effort 
+
+## whole-team relative-size estimating activity
+Planning poker
