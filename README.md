@@ -42,12 +42,12 @@ Collect and display sighted animals location and information
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 
 ## Definition of Ready
-* Title 
-* User story opening sentence
-* Additional details 
-* Acceptance criteria
-* Estimated in story points
-* Each user story has a high priority 
+* The story has a short title 
+* The story follows the user story format 
+* The story must has at least one acceptance criteria 
+* Each acceptance criteria is a testable true/false statement 
+* The story has been estimated by the team with a story point
+* The story is near the top of the product backlog 
 
 ## How we order the backlog
 * MVP features 
