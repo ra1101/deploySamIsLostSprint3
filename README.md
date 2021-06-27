@@ -57,4 +57,5 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 * Level of effort 
 
 ## whole-team relative-size estimating activity
-Planning poker
+* Planning poker
+* Only Development Team members participate in estimating the PBIs
