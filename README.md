@@ -48,3 +48,10 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 * Acceptance criteria
 * Estimated in story points
 * Each user story has a high priority 
+
+## How we order the backlog
+* MVP features 
+* Features dependencies 
+* Value to stakeholders 
+* Useful thin slices of technology 
+* Level of effort 
