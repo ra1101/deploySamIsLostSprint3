@@ -14,7 +14,7 @@ open-source
 ## Far vision
 Get animals home
 ## Near vision
-Collect and display lost animals location and information 
+Collect and display sighted animals location and information 
 ## Stakeholder type
 * Pet owner
 * Animal rescuer (Rob)
@@ -22,6 +22,8 @@ Collect and display lost animals location and information
 * Wildlife expert 
 * Vet
 * Animal control 
+* Community member
+* Comminty administrator
 ## Persona of Rob
 * Name: Rob 
 * Role: Animal rescuer
