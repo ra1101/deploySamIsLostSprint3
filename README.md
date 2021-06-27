@@ -54,8 +54,7 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 * Features dependencies 
 * Value to stakeholders 
 * Useful thin slices of technology 
-* Level of effort 
 
-## whole-team relative-size estimating activity
+## whole-team relative-size estimating activity method
 * Planning poker
 * Only Development Team members participate in estimating the PBIs
