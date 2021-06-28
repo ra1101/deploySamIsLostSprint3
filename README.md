@@ -1,4 +1,4 @@
-# sam-is-lost
+# Sam Is Lost (part 1)
 
 ## Team name
 TeamTurtle
@@ -58,3 +58,44 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 ## whole-team relative-size estimating activity method
 * Planning poker
 * Only Development Team members participate in estimating the PBIs
+
+# part 2 section
+## Forecast 
+TBD
+## Rationale for your forecast
+* TBD
+## Sprint Planning activities
+* Only development team members pulled stories from the top of the product backlog into the sprint backlog. The total points of the sprint backlog does not exceed the forecast. 
+## Kanban board URL
+TBD
+## Burndown chart URL
+TBD
+## Daily scrum detail
+### What did you do?
+* Amanda Price (Developer)
+* Jeff Chen (Developer)
+* Sanae Benchaaboun (Developer)
+* Shafford Archer (Developer)
+### What do you plan to do?
+* Amanda Price (Developer)
+* Jeff Chen (Developer)
+* Sanae Benchaaboun (Developer)
+* Shafford Archer (Developer)
+### Impediments?
+* Do you see any impediment that prevents you or the Development Team from meeting the Sprint Goal? 
+* What are the impediments?
+* What is your impediment removal plan?
+## Burndown chart updates screenshots 
+TBD
+## Paired or mobbed programming evidence 
+TBD
+## 10 micro-scale unit tests in the test suite 
+Link to the unit tests 
+## Working software URL
+TBD
+## Stakeholder review evidence
+TBD
+## Sprint Retrospective detail 
+* Action identified: 
+* Action plan converted to a product backlog item 
+* The new PBI is at the top of the product backlog 
