@@ -86,7 +86,7 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 * What are the impediments?
 * What is your impediment removal plan?
 ## Burndown chart updates screenshots 
-TBD
+![sprint1day1](/project-part-2/sprint1_burndown_day1.png)
 ## Paired or mobbed programming evidence 
 TBD
 ## 10 micro-scale unit tests in the test suite 
