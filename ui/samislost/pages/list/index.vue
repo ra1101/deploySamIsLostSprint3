@@ -1,19 +1,29 @@
 <template>
   <div>
-    <h2>Welcome to samislost, identifying lost animals</h2>
-    <p>Animal Sightings List</p>
+    <sighting
+      v-for="sighting in sightings"
+      :key="sighting.id"
+      :id="sighting.id"
+      :sighting="sighting.description"
+    />
   </div>
 </template>
 
 <script>
 import axios from "axios";
+import sighting from "../../components/sighting.vue";
 
 export default {
-  date() {
+  components: {
+    sighting,
+  },
+
+  data() {
     return {
       sightings: [],
     };
   },
+
   async created() {
     const config = {
       headers: {
@@ -21,12 +31,14 @@ export default {
       },
     };
     try {
-      const res = await axios.get("http:localhost:3004/sightings", config);
+      const res = await axios.get("http://localhost:3004/sightings", config);
       console.log(res.data);
+      this.sightings = res.data.results;
     } catch (err) {
       console.log(err);
     }
   },
+  methods: {},
   head() {
     return {
       title: "List of Recent Sightings",
