@@ -61,9 +61,9 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/backlog
 
 # part 2 section
 ## Forecast 
-TBD
+16
 ## Rationale for your forecast
-* TBD
+* Based on how much we think we can accomplish in this first sprint 
 ## Sprint Planning activities
 * Only development team members pulled stories from the top of the product backlog into the sprint backlog. The total points of the sprint backlog does not exceed the forecast. 
 ## Kanban board URL
