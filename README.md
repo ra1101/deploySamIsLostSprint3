@@ -88,7 +88,7 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## Burndown chart updates screenshots 
 ![sprint1day1](/project-part-2/sprint1_burndown_day1.png)
 ## Paired or mobbed programming evidence 
-* Screenshot TBD
+* Screenshot ![paired programming screenshot](/project-part-2/pair_programming.png)
 * Recording: https://github.com/adejeffchen/sam-is-lost/blob/main/project-part-2/GMT20210629-132951_Recording_1920x1050.mp4
 ## 10 micro-scale unit tests in the test suite 
 Link to the unit tests 
