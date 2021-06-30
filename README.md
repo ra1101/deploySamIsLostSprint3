@@ -73,23 +73,39 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## Daily scrum detail
 ### What did you do?
 * Amanda Price (Developer)
+  * started working on API
 * Jeff Chen (Developer)
+  * Researched unit test framework 
+  * set up unit test in code
+  * added a test case 
 * Sanae Benchaaboun (Developer)
-* Shafford Archer (Developer)
+  * working on CSS
+  * working on homepage to include the list view 
+* Ray Archer (Developer)
+  * completed the list view 
+  * make list item clickable for detail 
 ### What do you plan to do?
 * Amanda Price (Developer)
+  * finish the API and the data returned 
 * Jeff Chen (Developer)
+  * add more unit tests 
 * Sanae Benchaaboun (Developer)
-* Shafford Archer (Developer)
+  * finish the list view 
+  * check in complete code 
+* Ray Archer (Developer)
+  * deploy the site, mock API
 ### Impediments?
-* Do you see any impediment that prevents you or the Development Team from meeting the Sprint Goal? 
-* What are the impediments?
-* What is your impediment removal plan?
+* Do you see any impediment that prevents you or the Development Team from meeting the Sprint Goal? No
+* What are the impediments? None
+* What is your impediment removal plan? Not applicable 
 ## Burndown chart updates screenshots 
 ![sprint1day1](/project-part-2/sprint1_burndown_day1.png)
 ## Paired or mobbed programming evidence 
-* Screenshot ![paired programming screenshot](/project-part-2/pair_programming.png)
-* Recording: https://github.com/adejeffchen/sam-is-lost/blob/main/project-part-2/GMT20210629-132951_Recording_1920x1050.mp4
+* pair programming
+  * Screenshot ![paired programming screenshot](/project-part-2/pair_programming.png)
+  * Recording: https://github.com/adejeffchen/sam-is-lost/blob/main/project-part-2/GMT20210629-132951_Recording_1920x1050.mp4
+* mob programming
+  * Screenshot ![mob programming screenshot](/project-part-2/mob_programming.png)
 ## 10 micro-scale unit tests in the test suite 
 Link to the unit tests 
 ## Working software URL
