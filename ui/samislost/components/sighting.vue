@@ -1,15 +1,21 @@
 <template>
   <div class="sighting">
-    <p>{{ sighting }}</p>
+    <p>{{ title }}</p>
   </div>
 </template>
-
+//<a v-bind:href="url">{{ url }}{{ title }} </a>
 <script>
 export default {
-  name: "sighting",
-  props: ["id", "sightingTime", "description"],
+  name: "reportedSighting",
+  props: ["id", "title"],
 };
-</script>
+</script>,
+
+// data() {
+//   return {
+//     url: "http://localhost:3004/sightings"
+//   }
+// }
 
 <style scoped>
 .sighting {

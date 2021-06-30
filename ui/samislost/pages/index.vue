@@ -2,9 +2,8 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        samislost
-      </h1>
+      <!-- Logo image credit: https://decaljunky.com/pretty-sheltie-collie-head-decals/ -->
+      <h1 class="title">samislost.com</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -28,7 +27,10 @@
 </template>
 
 <script>
-export default {}
+import Vue from "vue";
+
+export default {};
+console.log(Vue.version);
 </script>
 
 <style>
@@ -42,16 +44,8 @@ export default {}
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
