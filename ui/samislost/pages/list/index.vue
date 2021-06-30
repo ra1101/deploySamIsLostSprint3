@@ -1,27 +1,29 @@
 <template>
   <div>
-    <sighting
-      v-for="sighting in sightings"
-      :key="sighting.id"
-      :id="sighting.id"
-      :sighting="sighting.description"
+    <reportedSighting
+      v-for="s in sightingsData"
+      :key="s.id"
+      :id="s.id"
+      :title="s.title"
     />
   </div>
 </template>
 
+
 <script>
 import axios from "axios";
-import sighting from "../../components/sighting.vue";
+import reportedSighting from "../../components/sighting.vue";
 
 export default {
   components: {
-    sighting,
+    reportedSighting,
   },
 
   data() {
-    return {
-      sightings: [],
-    };
+    // return {
+    //   sightingsData: [],
+    // };
+    return { sightingsData: [] };
   },
 
   async created() {
@@ -33,7 +35,7 @@ export default {
     try {
       const res = await axios.get("http://localhost:3004/sightings", config);
       console.log(res.data);
-      this.sightings = res.data.results;
+      this.sightingsData = res.data;
     } catch (err) {
       console.log(err);
     }
