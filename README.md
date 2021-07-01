@@ -113,7 +113,12 @@ https://github.com/adejeffchen/sam-is-lost/blob/main/ui/samislost/tests/unit/UI.
 ## Working software URL
 https://sam-is-lost-hfr8c.ondigitalocean.app
 ## Stakeholder review evidence
-TBD
+![sprint1_review](/project-part-2/sprint1_sprint_review_stakeholder.png)
+* Revised product backlog based on the feedback received: 
+  * would be good to see a pin drop on the map in detail view 
+  * show date/time of sighting to the list view 
+  * a filter for animal type for the list view will be useful 
+  * wild animal possibility: wolf 
 ## Sprint Retrospective detail 
 * Action identified: 
 * Action plan converted to a product backlog item 
