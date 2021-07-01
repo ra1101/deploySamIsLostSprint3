@@ -22,20 +22,4 @@ export default {
 //   }
 // }
 
-<style scoped>
-.sighting {
-  padding: 1rem;
-  border: 1px dotted #ccc;
-  margin: 1rem 0;
-}
-.sightingTitle {
-  font-size: 22px;
-}
 
-a {
-  color: blue;
-  background-color: white;
-  text-decoration: underline;
-  text-underline-position: below;
-}
-</style>
