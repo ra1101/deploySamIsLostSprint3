@@ -1,67 +1,59 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <!-- Logo image credit: https://decaljunky.com/pretty-sheltie-collie-head-decals/ -->
-      <h1 class="title">samislost.com</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div>
+    <reportedSighting
+      v-for="s in sightingsData"
+      :key="s.id"
+      :id="s.id"
+      :title="s.title"
+      :type="s.type"
+      :location="s.location"
+    />
   </div>
 </template>
 
-<script>
-import Vue from "vue";
 
-export default {};
-console.log(Vue.version);
+<script>
+import axios from "axios";
+import reportedSighting from "../components/sighting.vue";
+
+export default {
+  components: {
+    reportedSighting,
+  },
+
+  data() {
+    return { sightingsData: [] };
+  },
+
+  async created() {
+    const config = {
+      headers: {
+        Accept: "application/json",
+      },
+    };
+    try {
+      const res = await axios.get("http://localhost:3004/sightings", config);
+      console.log(res.data);
+      this.sightingsData = res.data;
+    } catch (err) {
+      console.log(err);
+    }
+  },
+  methods: {},
+  head() {
+    return {
+      title: "List of Recent Sightings",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Best way to get animals back home",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

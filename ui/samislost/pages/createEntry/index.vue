@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Sam Is Lost</h2>
-    <p>Map of animal sightings</p>
+    <p>Tell Us About Your Animal Sighting</p>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
   head() {
     return {
-      title: "SamIsLost Map",
+      title: "SamIsLost New Sighting",
       meta: [
         {
           hid: "description",
