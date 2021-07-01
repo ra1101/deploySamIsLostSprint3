@@ -107,7 +107,8 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 * mob programming
   * Screenshot ![mob programming screenshot](/project-part-2/mob_programming.png)
 ## 10 micro-scale unit tests in the test suite 
-Link to the unit tests 
+https://github.com/adejeffchen/sam-is-lost/blob/main/ui/samislost/tests/unit/UI.spec.js
+![unit_tests](/project-part-2/unit_tests.png)
 ## Working software URL
 TBD
 ## Stakeholder review evidence
