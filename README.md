@@ -100,6 +100,7 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 * What is your impediment removal plan? Not applicable 
 ## Burndown chart updates screenshots 
 ![sprint1day1](/project-part-2/sprint1_burndown_day1.png)
+![sprint1end](/project-part-2/sprint1_burndown_end.png)
 ## Paired or mobbed programming evidence 
 * pair programming
   * Screenshot ![paired programming screenshot](/project-part-2/pair_programming.png)
