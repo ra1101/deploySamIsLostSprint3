@@ -117,11 +117,28 @@ https://sam-is-lost-hfr8c.ondigitalocean.app
 ## Stakeholder review evidence
 ![sprint1_review](/project-part-2/sprint1_sprint_review_stakeholder.png)
 * Revised product backlog based on the feedback received: 
-  * would be good to see a pin drop on the map in detail view 
-  * show date/time of sighting to the list view 
-  * a filter for animal type for the list view will be useful 
-  * wild animal possibility: wolf 
+  * would be good to see a pin drop on the map in detail view -> https://team-turtle.atlassian.net/browse/SIL-51
+  * show date/time of sighting to the list view -> https://team-turtle.atlassian.net/browse/SIL-52
+  * a filter for animal type for the list view will be useful -> already have a story https://team-turtle.atlassian.net/browse/SIL-2
+  * wild animal possibility: wolf -> https://team-turtle.atlassian.net/browse/SIL-53
 ## Sprint Retrospective detail 
+* What did we do well?
+  * Decomposition of tasks was good
+  * We met our forecast 
+  * Knowledge transfer via Slack works well 
+  * Used new frameworks successfully 
+* What can be improved?
+  * Distribution of tasks can be more evenly 
+  * Not sure where to add bugs and new tasks for the infrastructure set up (e.g. deployment, CI, CD) 
+  * Meetings can be more focused with an agenda 
+  * Not sure where to put technical stories 
 * Action identified: 
+  * Set up a meeting to help each other to have their own environment set up and to run the application and tests via Zoom 
+  * Document the how-to from Slack in Git 
+  * Set up a recurring Zoom link for daily scrum & clearly list out the agenda in the zoom meeting detail
+  * Scrum Master to facilitate/steering meetings by publishing/following the agenda of the meetings 
+  * Ask Richard about where to put technical stories 
 * Action plan converted to a product backlog item 
-* The new PBI is at the top of the product backlog 
+* The new PBI is at the top of the product backlog
+![sprint1_action](/project-part-2/sprint1_retro_actions.png)
+
