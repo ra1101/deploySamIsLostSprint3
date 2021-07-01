@@ -6,10 +6,22 @@
         <nuxt-link to="/">Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/createEntry">Create Entry</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/list">Sightings List</nuxt-link>
+        <nuxt-link to="/about">About</nuxt-link>
+      </li>
+    </ul>
+
+    <div>
+      <p>
+        <label for="searchTerm">Search</label>
+        <input type="text" size="90" />
+      </p>
+    </div>
+    <ul>
+      <li>
+        <nuxt-link to="/list">List View</nuxt-link>
       </li>
       <li>
         <nuxt-link to="/map">Map View</nuxt-link>
@@ -45,8 +57,8 @@ export default {
 
 .header a {
   display: inline-block;
-  background: #333;
-  color: #fff;
+  background: grey;
+  color: white;
   padding: 0.3rem 1rem;
   margin-right: 0.5rem;
 }

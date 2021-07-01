@@ -1,51 +1,57 @@
 {
   "sightings": [
     {
-		"id": 1001,
+		"id": "1001",
 		"entryDatetime": "2021-06-21 184503",
 		"sightingTime": "noon",
 		"type": "dog",
+		"title": "Brown dog sighting near campus",
 		"location": "North Brattle St., Cambridge",
 		"description": "Small brown dog with big ears, running north on Brattle"
     },
     {
-		"id": 1002,
+		"id": "1002",
 		"entryDatetime": "2021-06-21 140124",
 		"sightingTime": "early a.m.",
 		"type": "cat",
+		"title": "Reporting cat sighting, looks lost",
 		"location": "West End near the cemetery on Maple Avenue,  Boston",
 		"description": "Big black cat lying on the grass"
 
     },
     {
-		"id": 1003,
+		"id": "1003",
 		"entryDatetime": "2021-06-22 070922",
 		"sightingTime": "1:30 pm",
 		"type": "bird",
+		"title": "Pet bird spotted, not afraid of people, parakeet",
 		"location": "Harvard Campus, Cambridge",
 		"description": "Green parakeet in tree by the library"
     },
     {
-		"id": 1004,
+		"id": "1004",
 		"entryDatetime": "2021-06-21 194801",
 		"sightingTime": "This afternoon around 4:30",
 		"type": "dog",
+		"title": "Two dogs loose, no collars",
 		"location": "Otis Street by Logan Park, Medford MA",
 		"description": "2 dogs without collars, one big, one medium size"
     },
     {
-                "id": 1005,
+                "id": "1005",
                 "entryDatetime": "2021-06-20 094401",
                 "sightingTime": "This morning at 9:30",
                 "type": "dog",
+		"title": "Dog causing nuisance in garbage",
                 "location": "Canal Street near the market",
                 "description": "Medium size dog getting in trash receptacles"
     },
     {
-                "id": 1006,
+                "id": "1006",
                 "entryDatetime": "2021-06-21 191109",
                 "sightingTime": "Around 7 p.m.",
                 "type": "dog",
+		"titel": "Nuisance animal, black dog, early evening",
                 "location": "Canal St.",
                 "description": "Dog, average size, diggin through trash bag"
     }

@@ -5,6 +5,8 @@
       :key="s.id"
       :id="s.id"
       :title="s.title"
+      :type="s.type"
+      :location="s.location"
     />
   </div>
 </template>
@@ -20,9 +22,6 @@ export default {
   },
 
   data() {
-    // return {
-    //   sightingsData: [],
-    // };
     return { sightingsData: [] };
   },
 
