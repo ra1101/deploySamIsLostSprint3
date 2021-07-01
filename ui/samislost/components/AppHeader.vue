@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1 class="title">Sam Is Lost</h1>
+    <h1 class="title"><img src="../assets/Logo.jpg" height=100 width=100 />Sam is Lost</h1>
     <ul>
       <li>
         <nuxt-link to="/">Home</nuxt-link>
@@ -16,9 +16,10 @@
     <div>
       <p>
         <label for="searchTerm">Search</label>
-        <input type="text" size="90" />
+        <input type="text" size="20" />
       </p>
     </div>
+   
     <ul>
       <li>
         <nuxt-link to="/list">List View</nuxt-link>
@@ -34,32 +35,5 @@
 export default {
   name: "AppHeader",
 };
+import '../assets/style.css'
 </script>
-
-<style>
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px dotted #ccc;
-}
-
-.header .title {
-  font-size: 3rem;
-  color: #526488;
-}
-
-.header ul {
-  display: flex;
-}
-
-.header a {
-  display: inline-block;
-  background: grey;
-  color: white;
-  padding: 0.3rem 1rem;
-  margin-right: 0.5rem;
-}
-</style>
