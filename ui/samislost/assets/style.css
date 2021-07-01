@@ -54,3 +54,17 @@
   .links {
     padding-top: 15px;
   }
+  .sighting {
+    padding: 1rem;
+    border: 1px dotted #ccc;
+    margin: 1rem 0;
+  }
+  .sightingTitle {
+    font-size: 22px;
+  }
+  
+  .sighting a {
+    color: blue;
+    text-decoration: underline;
+    text-underline-position: below;
+  }
