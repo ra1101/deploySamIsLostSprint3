@@ -112,6 +112,8 @@ https://github.com/adejeffchen/sam-is-lost/blob/main/ui/samislost/tests/unit/UI.
 ![unit_tests](/project-part-2/unit_tests.png)
 ## Working software URL
 https://sam-is-lost-hfr8c.ondigitalocean.app
+## Sprint Review
+* held with stakeholder Rob on 7/1 1pm
 ## Stakeholder review evidence
 ![sprint1_review](/project-part-2/sprint1_sprint_review_stakeholder.png)
 * Revised product backlog based on the feedback received: 
