@@ -13,27 +13,33 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## Daily scrum detail
 ### What did you do?
 * Amanda Price (Developer)
-  * 
+  * Updated the mock API to include new data needed 
 * Jeff Chen (Developer)
-  * 
+  * Finished the UI mockup for the detail page 
 * Sanae Benchaaboun (Developer)
-  * 
+  * Started the detail page UI
+  * Published agenda for meetings 
+  * Updated list view to have working link to the detail page 
 * Ray Archer (Developer)
-  * 
+  * Facilitated meeting to help others to set up environment 
+  * Asked professor where to put technical stories 
+  * Started setting up CI/CD
 ### What do you plan to do?
 * Amanda Price (Developer)
-  * 
+  * Finish the how-to set up environment documentation for new developer in the future 
+  * Testing the new page
 * Jeff Chen (Developer)
-  * 
+  * Add unit tests
 * Sanae Benchaaboun (Developer)
-  * 
-  * 
+  * Fix CSS for the detail page 
+  * Testing the new page
+  * Add sighting date time to listing page 
 * Ray Archer (Developer)
-  * 
+  * Complete setting up CI/CD
 ### Impediments?
-* Do you see any impediment that prevents you or the Development Team from meeting the Sprint Goal? 
-* What are the impediments? 
-* What is your impediment removal plan? 
+* Do you see any impediment that prevents you or the Development Team from meeting the Sprint Goal? No
+* What are the impediments? None
+* What is your impediment removal plan? None needed 
 ## Burndown chart updates screenshots 
 ![sprint2day1](/project-part-2/sprint2_burndown_day1.png)
 ## Paired or mobbed programming evidence 
