@@ -12,12 +12,14 @@
         <nuxt-link to="/about">About</nuxt-link>
       </li>
     </ul>
+
     <div>
       <p>
         <label for="searchTerm">Search</label>
         <input type="text" size="20" />
       </p>
     </div>
+   
     <ul>
       <li>
         <nuxt-link to="/list">List View</nuxt-link>
@@ -26,7 +28,6 @@
         <nuxt-link to="/map">Map View</nuxt-link>
       </li>
     </ul>
-    -->
   </header>
 </template>
 
