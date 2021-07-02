@@ -5,7 +5,7 @@
     </div>
     <p>Type: {{ type }}</p>
     <p>Location: {{ location }}</p>
-    <p><a href="#">See detail ></a></p>
+    <p class="link"><nuxt-link :to="'list/' + id">See detail ></nuxt-link></p>
   </div>
 </template>
 //<a v-bind:href="url">{{ url }}{{ title }} </a>
