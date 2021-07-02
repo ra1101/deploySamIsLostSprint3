@@ -37,11 +37,13 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## Burndown chart updates screenshots 
 ![sprint2day1](/project-part-2/sprint2_burndown_day1.png)
 ## Paired or mobbed programming evidence 
-* pair programming
-  * Screenshot
-  * Recording
-* mob programming
-  * Screenshot 
+* mob programming sessions
+![sprint2mob1](/project-part-2/sprint2_mob_programming1.png)
+![sprint2mob2](/project-part-2/sprint2_mob_programming2.png)
+## Continuous Integration evidence 
+TBD
+## Continuous Delivery evidence 
+TBD
 ## 10 micro-scale unit tests in the test suite 
 TBD
 ## Working software URL
