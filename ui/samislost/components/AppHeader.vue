@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1 class="title"><img src="../assets/Logo.jpg" height=100 width=100 />Sam is Lost</h1>
+    <div class="title"><img src="../assets/Logo.jpg" height=100 width=100 />Sam is Lost</div>
     <ul>
       <li>
         <nuxt-link to="/">Home</nuxt-link>
@@ -13,11 +13,9 @@
       </li>
     </ul>
 
-    <div>
-      <p>
-        <label for="searchTerm">Search</label>
+    <div class="search">
+      <label for="searchTerm">Search</label>
         <input type="text" size="20" />
-      </p>
     </div>
    
     <ul>

@@ -1,12 +1,13 @@
-*{
-  font-family: Arial, Helvetica, sans-serif;
-}
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
   .header {
     display: flex;
     justify-content: space-between;
     align-items: right;
-    margin-right: 0.3rem;
-    margin-bottom: 1rem;
+    margin: 0;
+    padding: 0;
   }
   .header .title {
     font-size: 80px;
@@ -15,6 +16,7 @@
   }
   .header ul {
     display: flex;
+    list-style: none;
   }
   .header a {
     display: inline-block;
@@ -23,9 +25,10 @@
     padding: 0.3rem 1rem;
     margin-right: 0.5rem;
     margin-top: 1rem;
+    text-decoration: none;
   }
-  .header p{
-    margin-top: 1.3rem;
+  .header .search{
+    margin-top: 2rem;
     font-weight: bold;
     color: #03112c;
   }
@@ -83,22 +86,24 @@
     border-style: outset;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .Table th{
+    column-span: all;
   }
   .Table td {
     float: left;
-    background-color: whitesmoke;
     padding: 0.3rem 1rem 0.3rem 1rem;
   }
   
   .left {
-    width: 25%;
+    width: 15%;
     font-weight: bold;
   }
   
   .right {
-    width: 75%;
+    width: 80%;
   }
 
   .credits {
