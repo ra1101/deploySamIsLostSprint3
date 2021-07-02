@@ -59,6 +59,7 @@ export default {
       console.log(err);
     }
   },
+  layout:'noSearch',
   head() {
     return {
       title: this.sighting.title,

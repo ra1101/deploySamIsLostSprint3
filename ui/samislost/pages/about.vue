@@ -23,7 +23,7 @@
         </a>
       </div>
       <div class="credits">
-        <p>Credit:&nbsp;</p>
+        Credit:&nbsp;
         <a href="https://github.com/bradtraversy/nuxt_dadjokes">
           starter code for project |&nbsp;
         </a>
@@ -38,7 +38,9 @@
 <script>
 import Vue from "vue";
 
-export default {};
+export default {
+  layout:'noSearch',
+};
 console.log(Vue.version);
 </script>
 
