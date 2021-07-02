@@ -49,7 +49,7 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## Continuous Integration evidence 
 TBD
 ## Continuous Delivery evidence 
-TBD
+[Recording of Deployment](https://harvard.zoom.us/rec/share/cd_UcxAiYFLpTOAtlZhdMwHebh1BNI92b6uCuIkwCIFuIkfDolWq0WBIBxBWifmB.Z-sKrWucEfLBP6Bs)
 ## 10 micro-scale unit tests in the test suite 
 TBD
 ## Working software URL
