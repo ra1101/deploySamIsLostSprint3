@@ -5,13 +5,12 @@
     display: flex;
     justify-content: space-between;
     align-items: right;
+    margin-right: 0.3rem;
     margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px dotted #526488;
   }
   .header .title {
-    font-size: 2rem;
-    font-weight: bolder;
+    font-size: 80px;
+    font-weight: bold ;
     color: #526488;
   }
   .header ul {
@@ -72,8 +71,49 @@
     font-size: 22px;
   }
   
-  .sighting a {
+  .link {
     color: blue;
     text-decoration: underline;
     text-underline-position: below;
+  }
+
+  .Table{
+    width: 80%;
+    align-self: center;
+    border-style: outset;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .Table td {
+    float: left;
+    background-color: whitesmoke;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+  }
+  
+  .left {
+    width: 25%;
+    font-weight: bold;
+  }
+  
+  .right {
+    width: 75%;
+  }
+
+  .credits {
+    padding-top: 45px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Table th{
+    background-color:#526488;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: left;
+    padding: 0.3rem 1rem 0.3rem 1rem;
   }
