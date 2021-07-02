@@ -6,7 +6,7 @@
       :id="s.id"
       :title="s.title"
       :type="s.type"
-      :location="s.location"
+      :location="s.sightedLocation"
     />
   </div>
 </template>
@@ -33,7 +33,6 @@ export default {
     };
     try {
       const res = await axios.get("http://localhost:3004/sightings", config);
-      console.log(res.data);
       this.sightingsData = res.data;
     } catch (err) {
       console.log(err);

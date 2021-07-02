@@ -1,9 +1,8 @@
 <template>
   <div>
-    <p class="link"><nuxt-link to="/">Back to sightings</nuxt-link></p>
     <table class="Table">
       <tr>
-        <th colspan=2 >{{ sighting.title }}</th>
+        <th>{{ sighting.title }}</th>
       </tr>
       <tr>
         <td class="left">Type</td>
@@ -19,11 +18,11 @@
       </tr>
       <tr>
         <td class="left">Sighted Location</td>
-        <td class="right">{{ sighting.location }}</td>
+        <td class="right">{{ sighting.sightedLocation }}</td>
       </tr>      
       <tr>
         <td class="left">Current Location</td>
-        <td class="right"></td>
+        <td class="right">{{ sighting.currentLocation }}</td>
       </tr>
       <tr>
         <td class="left">Description</td>
