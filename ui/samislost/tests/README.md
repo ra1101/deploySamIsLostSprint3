@@ -13,3 +13,7 @@ $ npm run test:unit
 ```
 ### Test file format 
 *.spec.js in tests/unit
+
+### Learn about adding unit tests 
+* https://vue-test-utils.vuejs.org/guides/#getting-started
+* https://vue-test-utils.vuejs.org/api/wrapper/#find 
