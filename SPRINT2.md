@@ -55,11 +55,16 @@ TBD
 ## Working software URL
 https://sam-is-lost-hfr8c.ondigitalocean.app
 ## Sprint Review
-* held with stakeholder Rob on 7/xx 
+* held with stakeholder Rob on 7/3 10am 
 ## Stakeholder review evidence
-Screenshot TBD
+Screenshot ![sprint2_sprint_review_stakeholder](/project-part-2/sprint2_sprint_review_stakeholder.png)
 * Revised product backlog based on the feedback received: 
-TBD
+  * Would like to filter the list by animal type 
+  * Would like to see a map of current location or sighted location 
+  * Current location may need more context about 
+  * Current location should be editable by anyone 
+  * List view sorting by sighted date/time 
+  * Tag information of animal can be an optional field 
 ## Sprint Retrospective detail 
 * What did we do well?
 * What can be improved?
