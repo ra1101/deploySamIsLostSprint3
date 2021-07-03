@@ -76,7 +76,7 @@ TBD add link to new stories
   * We adjusted the plan and the forecast accordingly to holidays 
   * Able to add more tests and keep the passing 
 * What can be improved?
-  * Pull request is being pulled in time due to timezone differences 
+  * Pull request is not being pulled in time due to timezone differences 
   * Code changes are not clear for which user stories or tasks 
 * Action identified: 
   * Integrate Jira with Git so we can associate code changes to user stories 
