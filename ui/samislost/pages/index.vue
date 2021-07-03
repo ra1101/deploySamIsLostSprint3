@@ -7,6 +7,9 @@
       :title="s.title"
       :type="s.type"
       :location="s.sightedLocation"
+      :sightingDate="s.sightingDate"
+      :sightingTime="s.sightingTime"
+      :timeZone="s.timeZone"
     />
   </div>
 </template>
