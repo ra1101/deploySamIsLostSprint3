@@ -7,7 +7,13 @@ Only development team members pulled stories from the top of the product backlog
 The total points of the sprint backlog does not exceed the forecast.  
 ## Kanban board URL
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2
-![sprint2_kanban](/project-part-2/sprint2_kanban_board.png)
+
+Overview of the kanban board for Sprint 2
+![sprint2_kanban](/project-part-2/sprint2_overview.png)
+
+Detailed view broken down by task for each story
+![sprint2_kanban](/project-part-2/sprint2_subtask.png)
+
 ## Burndown chart URL
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/burndown  (select sprint 2 in Sprint dropdown) 
 ## Daily scrum detail
