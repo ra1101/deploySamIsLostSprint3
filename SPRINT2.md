@@ -51,23 +51,36 @@ TBD
 ## Continuous Delivery evidence 
 [Recording of Deployment](https://harvard.zoom.us/rec/share/cd_UcxAiYFLpTOAtlZhdMwHebh1BNI92b6uCuIkwCIFuIkfDolWq0WBIBxBWifmB.Z-sKrWucEfLBP6Bs)
 ## 10 micro-scale unit tests in the test suite 
-TBD
+https://github.com/adejeffchen/sam-is-lost/blob/main/ui/samislost/tests/unit/UI.spec.js
+![sprint2_unit_tests](/project-part-2/sprint2_unit_tests.png)
 ## Working software URL
 https://sam-is-lost-hfr8c.ondigitalocean.app
 ## Sprint Review
-* held with stakeholder Rob on 7/3 10am 
+* held with stakeholder Rob on 7/3 10am with Rob
 ## Stakeholder review evidence
 Screenshot ![sprint2_sprint_review_stakeholder](/project-part-2/sprint2_sprint_review_stakeholder.png)
 * Revised product backlog based on the feedback received: 
+TBD add link to new stories 
   * Would like to filter the list by animal type 
-  * Would like to see a map of current location or sighted location 
-  * Current location may need more context about 
-  * Current location should be editable by anyone 
-  * List view sorting by sighted date/time 
-  * Tag information of animal can be an optional field 
+  * Would like to see a map of current location or sighted location -> https://team-turtle.atlassian.net/browse/SIL-76
+  * Current location may need more context about -> https://team-turtle.atlassian.net/browse/SIL-77
+  * Current location should be editable by anyone -> https://team-turtle.atlassian.net/browse/SIL-78
+  * List view sorting by sighted date/time -> https://team-turtle.atlassian.net/browse/SIL-79
+  * Tag information of animal can be an optional field -> https://team-turtle.atlassian.net/browse/SIL-80
 ## Sprint Retrospective detail 
 * What did we do well?
+  * We accomplished a lot in 2 days 
+  * More efficient meetings 
+  * Prioritized stakeholder feedback and stakeholder is happy 
+  * Workload splitting is more evenly between development team members 
+  * We adjusted the plan and the forecast accordingly to holidays 
+  * Able to add more tests and keep the passing 
 * What can be improved?
+  * Pull request is being pulled in time due to timezone differences 
+  * Code changes are not clear for which user stories or tasks 
 * Action identified: 
-* Action plan converted to a product backlog item 
+  * Integrate Jira with Git so we can associate code changes to user stories 
+  * Integrate Git to Slack so people can be notified with Pull Requests or Merged 
+* Action plan converted to a product backlog item done
 * The new PBI is at the top of the product backlog
+  * ![sprint2_retro_actions](/project-part-2/sprint2_retro_actions.png)
