@@ -61,7 +61,7 @@ https://sam-is-lost-hfr8c.ondigitalocean.app
 Screenshot ![sprint2_sprint_review_stakeholder](/project-part-2/sprint2_sprint_review_stakeholder.png)
 * Revised product backlog based on the feedback received: 
 TBD add link to new stories 
-  * Would like to filter the list by animal type 
+  * Would like to filter the list by animal type -> already have a user story https://team-turtle.atlassian.net/browse/SIL-2
   * Would like to see a map of current location or sighted location -> https://team-turtle.atlassian.net/browse/SIL-76
   * Current location may need more context about -> https://team-turtle.atlassian.net/browse/SIL-77
   * Current location should be editable by anyone -> https://team-turtle.atlassian.net/browse/SIL-78
