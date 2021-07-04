@@ -12,7 +12,7 @@ Overview of the kanban board for Sprint 2
 ![sprint2_kanban](/project-part-2/sprint2_overview.png)
 
 Detailed view broken down by task for each story
-![sprint2_kanban](/project-part-2/sprint2_subtask.png)
+![sprint2_kanban](/project-part-2/sprint2_kanban_with_task.png)
 
 ## Burndown chart URL
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/burndown  (select sprint 2 in Sprint dropdown) 
