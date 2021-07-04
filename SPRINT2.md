@@ -5,6 +5,9 @@
 ## Sprint Planning activities
 Only development team members pulled stories from the top of the product backlog into the sprint backlog.  
 The total points of the sprint backlog does not exceed the forecast.  
+
+![sprint2_sprint_backlog.png](/project-part-2/sprint2_sprint_backlog.png)
+
 ## Kanban board URL
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2
 
