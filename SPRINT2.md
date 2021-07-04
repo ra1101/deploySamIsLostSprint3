@@ -59,8 +59,12 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 TBD
 ## Continuous Delivery evidence 
 [Recording of Deployment](https://harvard.zoom.us/rec/share/cd_UcxAiYFLpTOAtlZhdMwHebh1BNI92b6uCuIkwCIFuIkfDolWq0WBIBxBWifmB.Z-sKrWucEfLBP6Bs)
-## 10 micro-scale unit tests in the test suite 
-https://github.com/adejeffchen/sam-is-lost/blob/main/ui/samislost/tests/unit/UI.spec.js
+## 10 more micro-scale unit tests in the test suite 
+* Unit testing is done at the component level, not the page level
+* Following [Unit Testing Vue Components](https://vuejs.org/v2/cookbook/unit-testing-vue-components.html)
+* https://github.com/adejeffchen/sam-is-lost/blob/main/ui/samislost/tests/unit/UI.spec.js
+
+Test run result
 ![sprint2_unit_tests](/project-part-2/sprint2_unit_tests.png)
 ## Working software URL
 https://sam-is-lost-hfr8c.ondigitalocean.app
