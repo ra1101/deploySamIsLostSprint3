@@ -9,7 +9,7 @@
     <p class="link"><nuxt-link :to="'list/' + id">See detail ></nuxt-link></p>
   </div>
 </template>
-//<a v-bind:href="url">{{ url }}{{ title }} </a>
+<!-- <a v-bind:href="url">{{ url }}{{ title }} </a> -->
 <script>
 export default {
   name: "reportedSighting",
@@ -17,10 +17,5 @@ export default {
 };
 </script>,
 
-// data() {
-//   return {
-//     url: "http://localhost:3004/sightings"
-//   }
-// }
 
 
