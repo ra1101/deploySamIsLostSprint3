@@ -51,13 +51,12 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 * What is your impediment removal plan? None needed 
 ## Burndown chart updates screenshots 
 ![sprint2day1](/project-part-2/sprint2_burndown_day1.png)
+![sprint2end](/project-part-2/C3562B98-5843-4E7A-BF7F-AFD8D97CA4E7.jpeg)
 ## Paired or mobbed programming evidence 
 * mob programming sessions
 ![sprint2mob1](/project-part-2/sprint2_mob_programming1.png)
 ![sprint2mob2](/project-part-2/sprint2_mob_programming2.png)
-## Continuous Integration evidence 
-TBD
-## Continuous Delivery evidence 
+## Continuous Integration Continuous Delivery evidence 
 [Recording of Deployment](https://harvard.zoom.us/rec/share/cd_UcxAiYFLpTOAtlZhdMwHebh1BNI92b6uCuIkwCIFuIkfDolWq0WBIBxBWifmB.Z-sKrWucEfLBP6Bs)
 ## 10 more micro-scale unit tests in the test suite 
 * Unit testing is done at the component level, not the page level
