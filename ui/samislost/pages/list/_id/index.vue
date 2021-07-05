@@ -27,7 +27,7 @@ export default {
     const routeId = this.$route.params.id;
     try {
       const res = await axios.get(
-        'https://samislost-json-server-sotyz.ondigitalocean.app/sightings' + routeId,
+        'https://samislost-json-server-sotyz.ondigitalocean.app/sightings/' + routeId,
         config
       );
       this.sighting = res.data;
