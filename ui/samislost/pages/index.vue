@@ -35,7 +35,7 @@ export default {
       },
     };
     try {
-      const res = await axios.get("http://localhost:3004/sightings", config);
+      const res = await axios.get("https://samislost-json-server-sotyz.ondigitalocean.app/sightings",config);
       this.sightingsData = res.data;
     } catch (err) {
       console.log(err);
