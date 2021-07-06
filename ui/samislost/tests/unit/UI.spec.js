@@ -2,6 +2,7 @@ import { shallowMount, RouterLinkStub } from '@vue/test-utils'
 import AppHeader from './../../components/AppHeader.vue'
 import NoSearch from './../../components/NoSearchHeader.vue'
 import reportedSighting from './../../components/sighting.vue'
+import search from './../../components/Search.vue'
 
 // -------------------------------------------------------
 // testing AppHeader.vue component 
@@ -93,17 +94,42 @@ describe('AppHeader.vue', () => {
   })
 })
 
-describe('AppHeader.vue', () => {
-  it('contains Search label', () => {
-    const wrapper = shallowMount(AppHeader, {
+// -------------------------------------------------------
+// testing search.vue component 
+// -------------------------------------------------------
+describe('Search.vue', () => {
+  it('is instantiated', () => {
+    const wrapper = shallowMount(search, {
       stubs: {
         NuxtLink: RouterLinkStub
       }
     })
-    const search = wrapper.findAll('label')
-    expect(search.at(0).text()).toContain('Search')
+    expect(wrapper.vm).toBeTruthy();
   })
 })
+
+describe('Search.vue', () => {
+  it('search input field is visible', () => {
+    const wrapper = shallowMount(search, {
+      stubs: {
+        NuxtLink: RouterLinkStub
+      }
+    })
+    expect(wrapper.find("#search_query").isVisible()).toBe(true);
+  })
+})
+
+describe('Search.vue', () => {
+  it('search button is visible', () => {
+    const wrapper = shallowMount(search, {
+      stubs: {
+        NuxtLink: RouterLinkStub
+      }
+    })
+    expect(wrapper.find("button").isVisible()).toBe(true);
+  })
+})
+
 // -------------------------------------------------------
 // testing sighting.vue component 
 // -------------------------------------------------------
