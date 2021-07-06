@@ -4,12 +4,14 @@
 ## Sprint Planning activities
 Only development team members pulled stories from the top of the product backlog into the sprint backlog.
 The total points of the sprint backlog does not exceed the forecast.
-* TODO screenshot of sprint backlog
+![sprint3_sprint_backlog](/project-part-2/sprint3_sprint_backlog.png)
+
 ## Kanban board URL
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2
+![sprint3_kanban_initial](/project-part-2/sprint3_kanban_initial.png)
 
 ## Burndown chart URL
-
+https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/burndown (select sprint 3 in Sprint dropdown)
 
 ## Daily scrum detail
 ### What did you do?
@@ -27,6 +29,7 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2
 * What are the impediments?
 * What is your impediment removal plan? 
 ## Burndown chart updates screenshots 
+![sprint3_burndown_initial](/project-part-2/sprint3_burndown_initial.png)
 
 ## Paired or mobbed programming evidence 
 
