@@ -13,10 +13,7 @@
       </li>
     </ul>
 
-    <div class="search">
-      <label for="searchTerm">Search</label>
-        <input type="text" size="20" />
-    </div>
+    <Search />
    
     <ul>
       <li>
@@ -30,8 +27,13 @@
 </template>
 
 <script>
+import Search from './Search'
+
 export default {
   name: "AppHeader",
+  components: {
+    Search
+  }
 };
 import '../assets/style.css'
 </script>
