@@ -1,6 +1,6 @@
 ## Forecast 
-**Forecast:**  
-**Rationale for your forecast:** 
+**Forecast: 16
+**Rationale for your forecast: Based on sprint 1 and sprint 2 data and number of days we have
 ## Sprint Planning activities
 
 ## Kanban board URL
