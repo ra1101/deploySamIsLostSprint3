@@ -40,10 +40,10 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## 10 more micro-scale unit tests in the test suite 
 
 ## Working software URL
+https://sam-is-lost-hfr8c.ondigitalocean.app/
 
-## Sprint Review
-
-## Stakeholder review evidence
+## Sprint Review rehearsal evidence  
+TBD
 
 ## Sprint Retrospective detail 
 * What did we do well?
