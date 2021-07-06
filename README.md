@@ -67,3 +67,5 @@ https://sam-is-lost-hfr8c.ondigitalocean.app
 # Sprint 2: 
 [Second Sprint Documentation](SPRINT2.md)
 
+# Sprint 3: 
+[Third Sprint Documentation](SPRINT3.md)
