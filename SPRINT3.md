@@ -2,11 +2,12 @@
   * Forecast: 13
   * Rationale for your forecast: Based on sprint 1 and sprint 2 data and number of days we have
 ## Sprint Planning activities
-
+Only development team members pulled stories from the top of the product backlog into the sprint backlog.
+The total points of the sprint backlog does not exceed the forecast.
+* TODO screenshot of sprint backlog
 ## Kanban board URL
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2
 
-O
 ## Burndown chart URL
 
 
