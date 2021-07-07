@@ -47,8 +47,27 @@ https://sam-is-lost-hfr8c.ondigitalocean.app/
 TBD
 
 ## Sprint Retrospective detail 
+* Held on 7/8/2021 
+* All team members participated in the sprint retrospective
 * What did we do well?
+  * Fast decision making
+  * Good team dynamics
+  * Effective meetings
+  * Quality solution
+  * Plan well
 * What can be improved?
-* Action identified: 
-* Action plan converted to a product backlog item done
-* The new PBI is at the top of the product backlog
+  * Solution discussion sometimes interfered with sprint ceremony
+  * Have more time in the spint to work together (pair/mob programming)
+  * Would like to have more solution discussions
+  * Recognize & converge more quickly on a micro test issue solution
+  * Product Vision & backlog was very large, rein it in, be realistic
+* One helpful change to improve our effectiveness together 
+  * Action Plan: Have even BETTER team dynamics
+  * Detail:
+    * Shared dev tools
+    * Environment improvements
+    * More pair/mob programming sessions
+    * Additional Jira/Slack/Github integrations
+  * Acceptance Criteria:
+    * We are more productive, Feature turnaround time improved, Velocity improved
+    * Each person pair programmed with at least 2 other teammates (knowledge share)
