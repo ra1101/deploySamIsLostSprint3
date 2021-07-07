@@ -32,16 +32,18 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ![sprint3_burndown_initial](/project-part-2/sprint3_burndown_initial.png)
 
 ## Paired or mobbed programming evidence 
+![sprint3_mod_programming1](/project-part-2/sprint3_mod_programming1.png)
+![sprint3_mod_programming2](/project-part-2/sprint3_mod_programming2.png)
 
 ## Continuous Integration Continuous Delivery evidence 
 
 ## 10 more micro-scale unit tests in the test suite 
 
 ## Working software URL
+https://sam-is-lost-hfr8c.ondigitalocean.app/
 
-## Sprint Review
-
-## Stakeholder review evidence
+## Sprint Review rehearsal evidence  
+TBD
 
 ## Sprint Retrospective detail 
 * What did we do well?
