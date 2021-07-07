@@ -16,18 +16,39 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## Daily scrum detail
 ### What did you do?
 * Amanda Price (Developer)
+  * created API for adding and deleting entry 
 * Jeff Chen (Developer)
+  * completed the search unit tests
+  * updated the UI change story 
 * Sanae Benchaaboun (Developer)
+  * created create entry design mockup
+  * started create entry UI 
 * Ray Archer (Developer)
+  * started externalize config into .env file
 ### What do you plan to do?
 * Amanda Price (Developer)
+  * include the python tests as part of CI 
+  * add more tests for entry CRUD actions 
+  * testing with Chrome
 * Jeff Chen (Developer)
+  * fix title for detail page 
+  * add tests for create entry page 
+  * set up a Miro board and grab the template for preso & share with team 
 * Sanae Benchaaboun (Developer)
+  * complete create entry UI 
+  * integrate create entry UI with API call
+  * testing with Chrome 
 * Ray Archer (Developer)
+  * complete externalize config into .env file
+  * complete CI set up
 ### Impediments?
 * Do you see any impediment that prevents you or the Development Team from meeting the Sprint Goal? 
+  * Yes
 * What are the impediments?
+  * Difficulty with framework config impacting CI/CD set up
 * What is your impediment removal plan? 
+  * More research needed 
+  * Sanae will look into it as well 
 ## Burndown chart updates screenshots 
 ![sprint3_burndown_initial](/project-part-2/sprint3_burndown_initial.png)
 
