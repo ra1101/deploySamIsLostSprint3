@@ -1,4 +1,5 @@
 <template>
+
   <form>
     <label><b>Type: </b></label>
     <select v-model="sightingEntryForm.type">
