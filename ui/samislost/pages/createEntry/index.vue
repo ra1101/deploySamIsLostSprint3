@@ -39,7 +39,6 @@ export default {
     },
   head() {
     return {
-      title: "SamIsLost New Sighting",
       meta: [
         {
           hid: "description",
