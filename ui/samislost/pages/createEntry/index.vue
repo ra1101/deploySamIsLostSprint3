@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <label>Title</label>
         <input type="text" v-model="form.title"/>
         <label>Sighted Location</label>
@@ -10,6 +10,7 @@
         <input type="text" v-model="form.description"/>
 
         <button v-on:click="submit()">Submit</button>
+        <span>{{sid}}</span>
     </div>
 </template>
 
@@ -23,16 +24,16 @@ export default {
                 sightedLocation: '',
                 currentLocation: '',
                 description: ''
-            }
+            },
+            sid: ''
         }
     },
 
     methods: {
         submit(){
-            axios.post('http://localhost:3004/sighting', this.form)
-                .then(function( ){
-                    // Handle success
-                    return true
+            axios.post('http://localhost:3004/sightings', this.form)
+                .then(function(res){
+                    this.sid = res.data.id
                 }.bind(this));
         }
     },
