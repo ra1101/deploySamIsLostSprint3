@@ -32,8 +32,9 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ![sprint3_burndown_initial](/project-part-2/sprint3_burndown_initial.png)
 
 ## Paired or mobbed programming evidence 
-![sprint3_mod_programming1](/project-part-2/sprint3_mod_programming1.png)
-![sprint3_mod_programming2](/project-part-2/sprint3_mod_programming2.png)
+![sprint3_mob_programming1](/project-part-2/sprint3_mod_programming1.png)
+![sprint3_mob_programming2](/project-part-2/sprint3_mod_programming2.png)
+![sprint3_pair_programming3](/project-part-2/pair_0707.png)
 
 ## Continuous Integration Continuous Delivery evidence 
 
