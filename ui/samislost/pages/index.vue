@@ -1,5 +1,6 @@
 <template>
   <div>
+    <search v-on:search-text="searchText"/>    
     <reportedSighting
       v-for="s in sightingsData"
       :key="s.id"
@@ -18,10 +19,12 @@
 <script>
 import axios from "axios";
 import reportedSighting from "../components/sighting.vue";
+import search from "../components/Search.vue";
 
 export default {
   components: {
     reportedSighting,
+    search,
   },
 
   data() {
@@ -41,7 +44,24 @@ export default {
       console.log(err);
     }
   },
-  methods: {},
+   methods: {
+    async searchText(text) {
+      const config = {
+        headers: {
+          Accept: "application/json"
+        }
+      };
+      try {
+        const res = await axios.get(
+          `http://localhost:3004/sightings?q=${text}`,
+          config
+        );
+        this.sightingsData = res.data;
+      } catch (err) {
+        console.log(err);
+      }
+    }
+  },
   head() {
     return {
       title: "List of Recent Sightings",
