@@ -1,7 +1,7 @@
 import axios from "axios";
 
 async function createEntry(form) {
-  const response = await axios.post("http://localhost:3004/sightings", form);
+  const response = await axios.post("https://samislost-json-server-sotyz.ondigitalocean.app/sightings", form);
   return response.status;
 };
 

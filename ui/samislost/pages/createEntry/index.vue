@@ -87,7 +87,7 @@ export default {
               return false;
             }
 
-            axios.post('http://localhost:3004/sightings', this.form)
+            axios.post('https://samislost-json-server-sotyz.ondigitalocean.app/sightings', this.form)
                 .then(function(res){
                     this.sid = res.data.id
                     window.alert("Entry submitted successfully")

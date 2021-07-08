@@ -1,7 +1,7 @@
 import axios from "axios";
 
 async function search (search_term) {
-    const response = await axios.get("http://localhost:3004/sightings?q="+search_term);
+    const response = await axios.get("https://samislost-json-server-sotyz.ondigitalocean.app/sightings?q="+search_term);
     //console.log(response.data);
     return response.data;
 };

@@ -67,7 +67,7 @@ export default {
 
     methods: {
         submit(){
-            axios.post('http://localhost:3004/sightings', this.sightingEntryForm)
+            axios.post('https://samislost-json-server-sotyz.ondigitalocean.app/sightings', this.sightingEntryForm)
                 .then(function(res){
                     this.sid = res.data.id
                     window.alert("Entry submitted successfully")
