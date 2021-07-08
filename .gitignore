@@ -1,4 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+#
+*.mp4
+*.m4a
+/project-part-2
 ### Node template
 # Logs
 /logs
