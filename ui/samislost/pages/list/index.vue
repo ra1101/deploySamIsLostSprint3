@@ -41,7 +41,6 @@ export default {
   methods: {},
   head() {
     return {
-      title: "List of Recent Sightings",
       meta: [
         {
           hid: "description",
