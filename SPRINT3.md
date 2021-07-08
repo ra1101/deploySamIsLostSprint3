@@ -6,6 +6,8 @@ Only development team members pulled stories from the top of the product backlog
 The total points of the sprint backlog does not exceed the forecast.
 ![sprint3_sprint_backlog](/project-part-2/sprint3_sprint_backlog.png)
 
+For tasks breakdown for the PBI, please access the stories from https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/burndown
+
 ## Kanban board URL
 https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2
 ![sprint3_kanban_initial](/project-part-2/sprint3_kanban_initial.png)
@@ -58,6 +60,7 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ![sprint3_pair_programming3](/project-part-2/pair_0707.png)
 
 ## Continuous Integration Continuous Delivery evidence 
+TBD Ray to provide screenshot and verbage 
 
 ## 10 more micro-scale unit tests in the test suite 
 * unit tests https://github.com/adejeffchen/sam-is-lost/tree/main/ui/samislost/tests/unit
@@ -68,7 +71,7 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 https://sam-is-lost-hfr8c.ondigitalocean.app/
 
 ## Sprint Review rehearsal evidence  
-TBD
+![sprint3_review_prep](/project-part-2/sprint3_review_prep.png)
 
 ## Sprint Retrospective detail 
 * Held on 7/8/2021 
@@ -79,6 +82,7 @@ TBD
   * Effective meetings
   * Quality solution
   * Plan well
+  * All team members adapted to the new technology
 * What can be improved?
   * Solution discussion sometimes interfered with sprint ceremony
   * Have more time in the spint to work together (pair/mob programming)
@@ -93,5 +97,5 @@ TBD
     * More pair/mob programming sessions
     * Additional Jira/Slack/Github integrations
   * Acceptance Criteria:
-    * We are more productive, Feature turnaround time improved, Velocity improved
+    * We are more productive: Feature turnaround time improved (tasks are completed within 24 hrs after started), Sprint velocity improved from 13 to 16 for the next two sprints
     * Each person pair programmed with at least 2 other teammates (knowledge share)
