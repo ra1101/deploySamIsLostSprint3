@@ -1,0 +1,20 @@
+{
+  "sightings": [
+    {
+		"id": 1004,
+		"entryDatetime": "2021-06-21 194801",
+		"sightingTime": "This afternoon around 4:30",
+		"type": "dog",
+		"location": "Otis Street by Logan Park, Medford MA",
+		"description": "2 dogs without collars, one big, one medium size"
+    },
+    {
+                "id": 1005,
+                "entryDatetime": "2021-06-20 094401",
+                "sightingTime": "This morning at 9:30",
+                "type": "dog",
+                "location": "Canal Street near the market",
+                "description": "Medium size dog getting in trash receptacles"
+    }
+  ]
+}
