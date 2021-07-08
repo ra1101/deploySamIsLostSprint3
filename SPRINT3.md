@@ -60,6 +60,9 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## Continuous Integration Continuous Delivery evidence 
 
 ## 10 more micro-scale unit tests in the test suite 
+* unit tests https://github.com/adejeffchen/sam-is-lost/tree/main/ui/samislost/tests/unit
+* run result
+![sprint3_unit_tests](/project-part-2/sprint3_unit_tests.png)
 
 ## Working software URL
 https://sam-is-lost-hfr8c.ondigitalocean.app/
