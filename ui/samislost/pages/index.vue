@@ -38,7 +38,11 @@ export default {
       },
     };
     try {
+<<<<<<< HEAD
       const res = await axios.get("https://samislost-json-server-sotyz.ondigitalocean.app/sightings", config);
+=======
+      const res = await axios.get("https://samislost-json-server-sotyz.ondigitalocean.app/sightings",config);
+>>>>>>> c5419076ffdaad1c22357af4109926cd42ce27f3
       this.sightingsData = res.data;
     } catch (err) {
       console.log(err);

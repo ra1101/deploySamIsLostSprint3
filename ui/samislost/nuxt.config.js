@@ -44,9 +44,16 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
+<<<<<<< HEAD
 
   server: {
     host: '0',
     port: 8080
   }	
+=======
+    server: {
+    host: '0',
+    port: 8080
+  }
+>>>>>>> c5419076ffdaad1c22357af4109926cd42ce27f3
 }
