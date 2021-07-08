@@ -38,7 +38,6 @@ export default {
   layout:'noSearch',
   head() {
     return {
-      title: this.sighting.title,
       meta: [
         {
           hid: "description",

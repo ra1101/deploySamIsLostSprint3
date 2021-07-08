@@ -42,14 +42,27 @@ class TestAPI(TestCase):
         d = deleteEntry(data['id'])
         self.assertEqual(d.status_code, requests.codes.ok)
 
+    def test_cannot_retrieve(self):
+        """
+        Ensure that the API cannot retrieve the entry based on ID before creation
+        """
+        data = createData()
+        g = getEntry(data['id'])
+        self.assertNotEqual(g.status_code, requests.codes.ok)
+
     def test_get_entry(self):
         """
         Ensure that the API can query an entry based on ID
         """
         data = createData()
         createEntry(data)
-
         g = getEntry(data['id'])
         self.assertEqual(g.status_code, requests.codes.ok)
         deleteEntry(data['id'])
 
+    def test_duplicate_entry(self):
+        data = createData()
+        s = createEntry(data)
+        r = createEntry(data)
+        self.assertNotEqual(r.status_code, requests.codes.ok)
+        deleteEntry(data['id'])
