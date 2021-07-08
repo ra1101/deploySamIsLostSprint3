@@ -62,13 +62,15 @@ https://team-turtle.atlassian.net/jira/software/projects/SIL/boards/2/reports/bu
 ## Continuous Integration Continuous Delivery evidence 
 TBD Ray to provide screenshot and verbage 
 
-Screenshot of the API data create/get/delete tests completion in IDE
-![api data test](/project-part-2/api_test.png)
+
 
 ## 10 more micro-scale unit tests in the test suite 
 * unit tests https://github.com/adejeffchen/sam-is-lost/tree/main/ui/samislost/tests/unit
 * run result
 ![sprint3_unit_tests](/project-part-2/sprint3_unit_tests.png)
+
+Screenshot of the [API data create/get/delete tests](https://github.com/adejeffchen/sam-is-lost/blob/8827e3e4944eedcec7587dbaabdc3f594c21aa3c/api/test_json.py) completion in IDE
+![api data test](/project-part-2/api_test.png)
 
 ## Working software URL
 https://sam-is-lost-hfr8c.ondigitalocean.app/
